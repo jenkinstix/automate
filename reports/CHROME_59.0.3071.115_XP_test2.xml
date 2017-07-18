@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites errors="0"
-            failures="1"
+            failures="0"
             tests="1">
 
   <testsuite name="test2"
-    errors="0" failures="1" hostname="" id="" package="test2" skipped="0"
-    tests="1" time="4.999" timestamp="Tue, 18 Jul 2017 21:50:44 GMT">
+    errors="0" failures="0" hostname="" id="" package="test2" skipped="0"
+    tests="1" time="3.775" timestamp="Tue, 18 Jul 2017 21:52:18 GMT">
   
-    <testcase name="Body Color" classname="test2" time="4.999" assertions="2">
+    <testcase name="Body Color" classname="test2" time="3.775" assertions="2">
 
-      <failure message="Testing if element &lt;.should_exist&gt; is not present.">    at Object.Body Color (c:\jenkinsTest\tests\e2e\test2.js:6:15)
-    at _combinedTickCallback (internal/process/next_tick.js:95:7)</failure>
+    
 
     
     </testcase>
