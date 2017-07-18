@@ -1,50 +1,50 @@
-14:48:01.940 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
-14:48:01.942 INFO - Launching a standalone Selenium Server
-2017-07-18 14:48:02.006:INFO::main: Logging initialized @594ms to org.seleniumhq.jetty9.util.log.StdErrLog
-14:48:02.139 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-14:48:02.140 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+14:50:37.223 INFO - Selenium build info: version: '3.4.0', revision: 'unknown'
+14:50:37.225 INFO - Launching a standalone Selenium Server
+2017-07-18 14:50:37.281:INFO::main: Logging initialized @599ms to org.seleniumhq.jetty9.util.log.StdErrLog
+14:50:37.420 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+14:50:37.421 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
 Unable to create new instances on this machine.
-14:48:02.140 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-14:48:02.141 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-14:48:02.142 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+14:50:37.421 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+14:50:37.422 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+14:50:37.423 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
  registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform WIN10
-2017-07-18 14:48:02.256:INFO:osjs.Server:main: jetty-9.4.3.v20170317
-2017-07-18 14:48:02.347:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@d8355a8{/,null,AVAILABLE}
-2017-07-18 14:48:02.449:INFO:osjs.AbstractConnector:main: Started ServerConnector@5f2108b5{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
-2017-07-18 14:48:02.451:INFO:osjs.Server:main: Started @1039ms
-14:48:02.451 INFO - Selenium Server is up and running
-14:48:03.105 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
-14:48:03.144 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Test, browserName=chrome, javascriptEnabled=true, chromeOptions={prefs={credentials_enable_service=false, profile.password_manager_enabled=false}}, platform=ANY}]])
-14:48:03.170 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Test, browserName=chrome, javascriptEnabled=true, chromeOptions={prefs={credentials_enable_service=false, profile.password_manager_enabled=false}}, platform=ANY}]
-Starting ChromeDriver 2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41) on port 15566
+2017-07-18 14:50:37.527:INFO:osjs.Server:main: jetty-9.4.3.v20170317
+2017-07-18 14:50:37.614:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@d8355a8{/,null,AVAILABLE}
+2017-07-18 14:50:37.768:INFO:osjs.AbstractConnector:main: Started ServerConnector@5f2108b5{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-07-18 14:50:37.770:INFO:osjs.Server:main: Started @1088ms
+14:50:37.770 INFO - Selenium Server is up and running
+14:50:38.514 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+14:50:38.555 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Test, browserName=chrome, javascriptEnabled=true, chromeOptions={prefs={credentials_enable_service=false, profile.password_manager_enabled=false}}, platform=ANY}]])
+14:50:38.580 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Test, browserName=chrome, javascriptEnabled=true, chromeOptions={prefs={credentials_enable_service=false, profile.password_manager_enabled=false}}, platform=ANY}]
+Starting ChromeDriver 2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41) on port 8572
 Only local connections are allowed.
-14:48:06.335 INFO - Detected dialect: OSS
-14:48:06.378 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Test, browserName=chrome, javascriptEnabled=true, chromeOptions={prefs={credentials_enable_service=false, profile.password_manager_enabled=false}}, platform=ANY}]]
-14:48:06.426 INFO - Executing: [get: http://localhost:3000/index.html])
-14:48:06.765 INFO - Done: [get: http://localhost:3000/index.html]
-14:48:06.783 INFO - Executing: [find elements: By.cssSelector: body])
-14:48:06.900 INFO - Done: [find elements: By.cssSelector: body]
-14:48:06.912 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (849ca33e3aa24babd3a088f83d1ea242)] -> css selector: body]])
-14:48:06.950 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (849ca33e3aa24babd3a088f83d1ea242)] -> css selector: body]]
-14:48:06.963 INFO - Executing: [find element: By.cssSelector: #header])
-14:48:07.000 INFO - Done: [find element: By.cssSelector: #header]
-14:48:07.009 INFO - Executing: [get text: 1 [[ChromeDriver: chrome on XP (849ca33e3aa24babd3a088f83d1ea242)] -> css selector: #header]])
-14:48:07.050 INFO - Done: [get text: 1 [[ChromeDriver: chrome on XP (849ca33e3aa24babd3a088f83d1ea242)] -> css selector: #header]]
-14:48:07.061 INFO - Executing: [delete session: 7d258849-74f2-458a-a6ec-bda5ee135ff4])
-14:48:08.206 INFO - Done: [delete session: 7d258849-74f2-458a-a6ec-bda5ee135ff4]
-14:48:08.691 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Test2, browserName=chrome, javascriptEnabled=true, chromeOptions={prefs={credentials_enable_service=false, profile.password_manager_enabled=false}}, platform=ANY}]])
-14:48:08.693 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Test2, browserName=chrome, javascriptEnabled=true, chromeOptions={prefs={credentials_enable_service=false, profile.password_manager_enabled=false}}, platform=ANY}]
-Starting ChromeDriver 2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41) on port 33409
+14:50:42.014 INFO - Detected dialect: OSS
+14:50:42.059 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Test, browserName=chrome, javascriptEnabled=true, chromeOptions={prefs={credentials_enable_service=false, profile.password_manager_enabled=false}}, platform=ANY}]]
+14:50:42.109 INFO - Executing: [get: http://localhost:3000/index.html])
+14:50:42.508 INFO - Done: [get: http://localhost:3000/index.html]
+14:50:42.525 INFO - Executing: [find elements: By.cssSelector: body])
+14:50:42.653 INFO - Done: [find elements: By.cssSelector: body]
+14:50:42.666 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (a08eb5f998766cae758e74e3b8b9832e)] -> css selector: body]])
+14:50:42.720 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (a08eb5f998766cae758e74e3b8b9832e)] -> css selector: body]]
+14:50:42.734 INFO - Executing: [find element: By.cssSelector: #header])
+14:50:42.776 INFO - Done: [find element: By.cssSelector: #header]
+14:50:42.785 INFO - Executing: [get text: 1 [[ChromeDriver: chrome on XP (a08eb5f998766cae758e74e3b8b9832e)] -> css selector: #header]])
+14:50:42.826 INFO - Done: [get text: 1 [[ChromeDriver: chrome on XP (a08eb5f998766cae758e74e3b8b9832e)] -> css selector: #header]]
+14:50:42.836 INFO - Executing: [delete session: dde1d00f-ee88-4089-8c1b-58f4ab34bf21])
+14:50:44.101 INFO - Done: [delete session: dde1d00f-ee88-4089-8c1b-58f4ab34bf21]
+14:50:44.634 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Test2, browserName=chrome, javascriptEnabled=true, chromeOptions={prefs={credentials_enable_service=false, profile.password_manager_enabled=false}}, platform=ANY}]])
+14:50:44.637 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Test2, browserName=chrome, javascriptEnabled=true, chromeOptions={prefs={credentials_enable_service=false, profile.password_manager_enabled=false}}, platform=ANY}]
+Starting ChromeDriver 2.30.477700 (0057494ad8732195794a7b32078424f92a5fce41) on port 26490
 Only local connections are allowed.
-14:48:11.054 INFO - Detected dialect: OSS
-14:48:11.061 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Test2, browserName=chrome, javascriptEnabled=true, chromeOptions={prefs={credentials_enable_service=false, profile.password_manager_enabled=false}}, platform=ANY}]]
-14:48:11.088 INFO - Executing: [get: http://localhost:3000/index.html])
-14:48:12.678 INFO - Done: [get: http://localhost:3000/index.html]
-14:48:12.692 INFO - Executing: [find elements: By.cssSelector: body])
-14:48:12.748 INFO - Done: [find elements: By.cssSelector: body]
-14:48:12.755 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (ae651471d16721ea26c1a2572d280540)] -> css selector: body]])
-14:48:12.794 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (ae651471d16721ea26c1a2572d280540)] -> css selector: body]]
-14:48:12.805 INFO - Executing: [find elements: By.cssSelector: .should_not_exist])
-14:48:12.844 INFO - Done: [find elements: By.cssSelector: .should_not_exist]
-14:48:12.852 INFO - Executing: [delete session: a2abcb7f-4640-4829-bc6a-ba345968c92a])
-14:48:13.774 INFO - Done: [delete session: a2abcb7f-4640-4829-bc6a-ba345968c92a]
+14:50:47.051 INFO - Detected dialect: OSS
+14:50:47.059 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Test2, browserName=chrome, javascriptEnabled=true, chromeOptions={prefs={credentials_enable_service=false, profile.password_manager_enabled=false}}, platform=ANY}]]
+14:50:47.086 INFO - Executing: [get: http://localhost:3000/index.html])
+14:50:48.554 INFO - Done: [get: http://localhost:3000/index.html]
+14:50:48.569 INFO - Executing: [find elements: By.cssSelector: body])
+14:50:48.624 INFO - Done: [find elements: By.cssSelector: body]
+14:50:48.633 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on XP (3c3d2ef76d70896668204fb84e21b729)] -> css selector: body]])
+14:50:48.674 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on XP (3c3d2ef76d70896668204fb84e21b729)] -> css selector: body]]
+14:50:48.688 INFO - Executing: [find elements: By.cssSelector: .should_exist])
+14:50:48.736 INFO - Done: [find elements: By.cssSelector: .should_exist]
+14:50:48.747 INFO - Executing: [delete session: 3778f6b5-0fed-47c4-bdb7-40db852054ee])
+14:50:49.603 INFO - Done: [delete session: 3778f6b5-0fed-47c4-bdb7-40db852054ee]
