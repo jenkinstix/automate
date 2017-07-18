@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/jenkinstix/automate#readme",
   "dependencies": {
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "nightwatch": "^0.9.16"
   }
 }
